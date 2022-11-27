@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.menuItem {
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  & .menuItemIcon {
+    margin-right: 8px;
+    font-size: 16px;
+  }
+}
